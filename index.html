@@ -3,10 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
+
+    <!--- FONTS --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Business Web Site</title>
 </head>
 <body>
-    <h1>Naslov</h1>
+    <!--- Navbar start --->
+    <nav class="navbar container">
+        <img src="./assets/logo.png" alt="logo" class="navbar_logo" />
+        
+        <div class="navbar_wrapper" id="navbar_wrapper">
+            
+            <button class="navbar_close" id="closeMenu" aria-label="Close menu">x</button>
+            <ul class="navbar_wrapper_lists">  
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Features</a>
+                </li>
+                <li>
+                    <a href="#">Themes</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+            <button class="btn btn_navbar">Get Started</button>
+        </div>
+
+        <img src="./assets/menu.png" alt="menubar" class="navbar_menuIcon"  id="menuIcon"  />
+    </nav>
+    <!--- Navbar end --->
+    <!--- Header Section Start --->
+    <header class="header container">
+        <h3 class="header_title">We are creative agency capable of creating outstanding designs and websites</h3>
+
+        <p class="header_desc">With Immodev Reach more customers and grow your business potential online by building a website with us</p>
+
+        <div class="header_btn">
+            <button class="btn btn_white">Consult now</button>
+            <button class="btn btn_outline">About Us</button>
+        </div>
+    </header>
+    <!--- Header Section End --->
+
+    <!--- Hero Start --->
+    <section class="hero container">
+        <div class="hero_header">
+            <div class="hero_header_left">
+                <span>What Does Imoodev Do?</span>
+                <h3>Analyzing Target Customers with the Right!</h3>
+            </div>
+            <p class="hero_header_desc">Do not miss this opportunity. With our experience, Whello will find something unique in your brand. Analyze and try to follow what your audience really likes and is looking for, so that your customers will be more loyal to you.</p>
+        </div>
+
+        <div class="hero_content">
+            <!--- First Card --->
+            <div class="hero_content_wrapper">
+            <div class="hero_card">
+                <div 
+                    class="circle" 
+                    style="background-color: #00b4d8;"
+                >
+                    <img src="./assets/Edit.png" alt="edit" />
+                </div>
+                <h2 class="hero_card_title">Web Development</h2>
+                <p class="hero_card_desc">Easy to modify from the provided template settings page without the need for complicated coding skills.</p>
+            </div>
+            <!--- Second Card --->
+            <div class="hero_card">
+                <div 
+                    class="circle"
+                    style="background-color: #ff4d6d;"
+                    >
+                    <img src="./assets/Heart.png" alt="heart" />
+                </div>
+                <h2 class="hero_card_title">JavaScript Course</h2>
+                <p class="hero_card_desc">Easy to modify from the provided template settings page without the need for complicated coding skills.</p>
+            </div>
+            </div>
+            <!--- Third Card --->
+            <div class="hero_content_wrapper">
+            <div class="hero_card">
+                <div 
+                    class="circle" 
+                    style="background-color: #7400b8;"
+                >
+                    <img src="./assets/Category.png" alt="category" />
+                </div>
+                <h2 class="hero_card_title">All Category</h2>
+                <p class="hero_card_desc">Easy to modify from the provided template settings page without the need for complicated coding skills.</p>
+            </div>
+            <!--- Fourth Card --->
+            <div class="hero_card">
+                <div 
+                    class="circle" 
+                    style="background-color: #0d1337;"
+                >
+                    <img src="./assets/Image.png" alt="image" />
+                </div>
+                <h2 class="hero_card_title">Mobile Dev</h2>
+                <p class="hero_card_desc">Easy to modify from the provided template settings page without the need for complicated coding skills.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--- Hero End --->
+
+    <!--- Who Start --->
+    <section class="who container">
+        <!--- Top Section --->
+        <div class="who_wrapper">
+            <div class="who_wrapper_left">
+                <h4>Who is Imoodev?</h4>
+                <h2>we are a service engaged in digital marketing</h2>
+                <p>Do not miss this opportunity. With our experience, Whello will find something unique in your brand. Analyze and try to follow what your audience really likes and is looking for, so that your customers will be more loyal to you.</p>
+                <button class="btn">Consult now</button>
+            </div>
+            <div class="who_wrapper_right">
+                <img src="./assets/WhoOne.png" alt="who one" />
+            </div>
+        </div>
+        <!--- Bottom Section --->
+        <div class="who_wrapper reverse">
+            <div class="who_wrapper_left">
+                <h4>Who is Imoodev?</h4>
+                <h2>we are a service engaged in digital marketing</h2>
+                <p>Do not miss this opportunity. With our experience, Whello will find something unique in your brand. Analyze and try to follow what your audience really likes and is looking for, so that your customers will be more loyal to you.</p>
+                <button class="btn">Consult now</button>
+            </div>
+            <div class="who_wrapper_right">
+                <img src="./assets/WhoTwo.png" alt="who one" />
+            </div>
+        </div>
+    </section>
+    <!--- Who End --->
+
+    <!--- Business start --->
+    
+    <section class="business">
+        <div class="container">
+            <h2 class="title">We always prioritize <br /> 
+                Customer Satisfaction</h2>
+        
+        <div class="business_wrapper">
+            <!--- First Card --->
+            <div class="business_wrapper_card">
+                <div class="title_card">
+                    <h2>01</h2>
+                    <div class="num_circle"></div>
+                </div>
+                <h4>Expand your business to the online realm</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat </p>
+
+                <div class="link">
+                    <a href="#">Learnmore</a>
+                    <img src="./assets/arrowRight.png" alt="arrow" />
+                </div>
+            </div>
+            <!--- Second Card --->
+            <div class="business_wrapper_card">
+                <div class="title_card">
+                    <h2>02</h2>
+                    <div class="num_circle"></div>
+                </div>
+                <h4>Expand your business to the online realm</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat </p>
+
+                <div class="link">
+                    <a href="#">Learnmore</a>
+                    <img src="./assets/arrowRight.png" alt="arrow" />
+                </div>
+            </div>
+            <!--- Third Card --->
+            <div class="business_wrapper_card">
+                <div class="title_card">
+                    <h2>03</h2>
+                    <div class="num_circle"></div>
+                </div>
+                <h4>Expand your business to the online realm</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat </p>
+
+                <div class="link">
+                    <a href="#">Learnmore</a>
+                    <img src="./assets/arrowRight.png" alt="arrow" />
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--- Business end --->
+
+    <!--- News start --->
+<section class="news container">
+    <h2 class="title">Latest news from Imoodev</h2>
+
+    <div class="news_wrapper">
+        <!-- Card 1 -->
+        <div class="news_wrapper_card">
+            <img src="./assets/figmaImg.png" alt="news image" />
+            <div class="text">
+                <h2>Introducing Uncode 2.3.0 and the WooCommerce Builder</h2>
+                <p>
+                    We are pleased to bring you Uncode 2.3.0 the latest and greatest version of our pixel-perfect, creative, multipurpose WordPress...
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="news_wrapper_card">
+            <img src="./assets/kids.png" alt="news image" />
+            <div class="text">
+                <h2>Introducing Uncode 2.3.0 and the WooCommerce Builder</h2>
+                <p>
+                    We are pleased to bring you Uncode 2.3.0 the latest and greatest version of our pixel-perfect, creative, multipurpose WordPress...
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="news_wrapper_card">
+            <img src="./assets/seller.png" alt="news image" />
+            <div class="text">
+                <h2>Introducing Uncode 2.3.0 and the WooCommerce Builder</h2>
+                <p>
+                    We are pleased to bring you Uncode 2.3.0 the latest and greatest version of our pixel-perfect, creative, multipurpose WordPress...
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--- News end --->
+
+<!--- input  --->
+<section class="input container">
+    <h2>Subs Our Newsletter for <br /> 
+        Daily Update</h2>
+    <div class="input_wrapper">
+        <input type="text" placeholder="Your e-mail address here">
+        <button class="btn">Search</button>
+    </div>
+</section>
+
+<!--- FOOTER START --->
+<footer class="footer">
+  <div class="container">
+    <div class="footer_wrapper">
+
+      <!-- COL 1: INFO -->
+      <div class="footer-info">
+        <img src="./assets/logo.png" alt="Imoodev" class="footer_logo" />
+
+        <div class="footer_item">
+          <span class="footer_icon">
+            <img src="./assets/location.png" alt="location" />
+          </span>
+          <p>Sukabumi Utara,<br />Indonesia</p>
+        </div>
+
+        <div class="footer_item">
+          <span class="footer_icon">
+            <img src="./assets/email.png" alt="email" />
+          </span>
+          <a href="mailto:elmous@yahoo.co.id">elmous@yahoo.co.id</a>
+        </div>
+
+        <div class="footer_item">
+          <span class="footer_icon footer_icon--phone">
+            <img src="./assets/phone.png" alt="phone" />
+          </span>
+          <a href="tel:+622245678976">022 4567 8976</a>
+        </div>
+
+      </div>
+
+      <!-- COL 2: FEATURE -->
+      <div class="footer_col">
+        <h3>Our Feature</h3>
+        <ul>
+          <li><a href="#">Paying Off Debt</a></li>
+          <li><a href="#">Planning Work</a></li>
+          <li><a href="#">Our Promise</a></li>
+          <li><a href="#">Employee Benefits</a></li>
+        </ul>
+      </div>
+
+      <!-- COL 3: SERVICE -->
+      <div class="footer_col">
+        <h3>Our Service</h3>
+        <ul>
+          <li><a href="#">Digital Service</a></li>
+          <li><a href="#">Marketing Service</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+<h3 class="footer_title">Copyright @imoodev 2021 All Right Reserved</h3>
+</footer>
+<!-- FOOTER END -->
+<script src="./scripts/script.js"></script> 
 </body>
 </html>
