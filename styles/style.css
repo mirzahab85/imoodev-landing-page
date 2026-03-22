@@ -115,4 +115,42 @@ body a {
   .navbar_wrapper--open {
     display: flex !important;
   }
+}
+
+.header_title {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+.header_desc {
+  text-align: center;
+  color: #fff;
+}
+.header_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.header_btn .btn_white {
+  padding: 16px 80px;
+  cursor: pointer;
+}
+.header_btn .btn_outline {
+  padding: 16px 80px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: #fff;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .header_title {
+    font-size: 32px;
+  }
+  .header_btn .btn_white,
+  .header_btn .btn_outline {
+    padding: 16px 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
