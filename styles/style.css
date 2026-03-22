@@ -1,3 +1,118 @@
-h1 {
-  font-size: 51px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0D1337;
+}
+body ul {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 16px 40px;
+  border: none;
+}
+
+.navbar {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+}
+.navbar_navbar_logo {
+  position: relative;
+  z-index: 30;
+}
+.navbar_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar_wrapper .navbar_close {
+  display: none;
+  position: fixed;
+  top: 28px;
+  right: 24px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 25;
+}
+.navbar_wrapper_lists {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar_wrapper_lists li a {
+  color: #8e919a;
+}
+.navbar_wrapper_lists li a_hover {
+  color: #fff;
+}
+.navbar_wrapper .btn_navbar {
+  color: #0D1337;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  padding: 10px 18px;
+}
+.navbar_wrapper--open {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0A0F2C;
+  padding-top: 100px;
+  font-size: 20px;
+  z-index: 10;
+}
+.navbar_wrapper--open .navbar_close {
+  display: block;
+  top: 80px;
+}
+.navbar_wrapper--open .navbar_wrapper_lists {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.navbar_menuIcon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-color: white;
+  display: none;
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  .navbar_wrapper {
+    display: none;
+  }
+  .navbar_menuIcon {
+    display: block;
+  }
+  .navbar_wrapper--open {
+    display: flex !important;
+  }
 }/*# sourceMappingURL=style.css.map */
