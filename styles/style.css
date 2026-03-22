@@ -153,4 +153,124 @@ body a {
   .header_btn .btn_outline {
     padding: 16px 50px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+.hero {
+  margin: 50px auto;
+}
+.hero_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.hero_header_left {
+  width: 50%;
+}
+.hero_header_left span {
+  color: #ff6f29;
+  font-size: 24px;
+}
+.hero_header_left h3 {
+  color: #fff;
+  font-size: 42px;
+}
+.hero_header_desc {
+  width: 50%;
+  color: #fff;
+}
+.hero_content {
+  display: flex;
+  gap: 20px;
+}
+.hero_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero_content_wrapper .hero_card {
+  padding: 32px;
+  border-radius: 15px;
+  border: 1px solid #dddddd;
+}
+.hero_content_wrapper .hero_card h2 {
+  color: #fff;
+  margin: 30px 0px;
+}
+.hero_content_wrapper .hero_card p {
+  color: #dddddd;
+}
+.hero_content_wrapper .hero_card .circle {
+  width: 50px;
+  height: 50px;
+  background-color: #ff6f29;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_content_wrapper .hero_card:hover {
+  background-color: #fff;
+}
+.hero_content_wrapper .hero_card:hover .hero_card_title {
+  color: #0d1337;
+}
+.hero_content_wrapper .hero_card:hover .hero_card_desc {
+  color: #0d1337;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    margin: 50px auto;
+  }
+  .hero_header {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero_header_left, .hero_header_desc {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    gap: 22px;
+  }
+  .hero_header span {
+    line-height: 3;
+    font-size: 22px;
+  }
+  .hero_header h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 600;
+  }
+  .hero_content {
+    flex-direction: column;
+    gap: 11px;
+  }
+  .hero_content_wrapper {
+    gap: 16px;
+  }
+  .hero .hero_card {
+    padding: 20px;
+  }
+  .hero h2 {
+    font-size: 20px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .hero p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .hero .circle {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .circle img {
+    width: 40px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+/* END HERO SECION *//*# sourceMappingURL=style.css.map */
