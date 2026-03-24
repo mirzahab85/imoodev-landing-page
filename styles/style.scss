@@ -684,3 +684,138 @@ body{
 }
 
 /** END INPUT FIELD **/
+
+/* FOOTER START */
+
+.footer{
+    background: linear-gradient(180deg, #0b1238, #0b254b);
+    color: #fff;
+
+    &_wrapper{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+    /* COL 1 */
+    .footer-info{
+        flex:0 0 380px;
+    }
+    .footer_logo{
+      display: block;
+      width: 144px;      
+      max-width: 100%;
+      height: auto;      
+      margin-bottom: 40px;
+    }
+    .footer_item {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        margin-top: 24px;
+    
+        p,
+        a{
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.5;
+        }
+    }
+    .footer_icon{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        img{
+            width: 22px;
+            height: 22px;
+            object-fit: contain;
+        }
+        &--phone{
+            border-color: #3b82f6;;
+        }
+    }
+    /* COL 2 & 3 */
+    .footer_col{
+        flex: 1 1 240px;
+    
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 28px;
+        }
+    
+        ul{
+            margin-top: 50px;
+            li{
+                
+                margin-bottom: 24px;
+    
+                a{
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.55);
+    
+                     &:hover{
+                        color: #fff;
+                     }
+                }
+            }
+    
+        }
+    }
+    .footer {
+      &_title {
+        text-align: center;
+        background-color: #fff;
+        color: #000;
+        padding: 14px 0;
+        font-weight: 400;
+    
+        h1,
+        h2,
+        h3 {
+          color: #000;
+        }
+      }
+    }
+    @media screen and (max-width: 600px) {
+        .footer {
+            padding: 48px 0;
+    
+            &_wrapper{
+                gap: 2px;
+            }
+            /* COL 2 & 3 */
+            .footer_col{
+
+                h3{
+                    font-size: 18px;
+                    margin-top: 12px;
+                }
+                ul{
+                    margin-top: 18px;
+    
+                    li{
+                        margin-bottom: 14px;
+                    
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer{
+    &_title{
+        padding: 2px 12px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 2;
+    }
+}
+}
+/* FOOTER END */

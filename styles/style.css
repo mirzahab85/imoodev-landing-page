@@ -606,4 +606,125 @@ body a {
     font-size: 15px;
   }
 }
-/** END INPUT FIELD **//*# sourceMappingURL=style.css.map */
+/** END INPUT FIELD **/
+/* FOOTER START */
+.footer {
+  background: linear-gradient(180deg, #0b1238, #0b254b);
+  color: #fff;
+}
+.footer_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.footer {
+  /* COL 1 */
+}
+.footer .footer-info {
+  flex: 0 0 380px;
+}
+.footer .footer_logo {
+  display: block;
+  width: 144px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+.footer .footer_item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 24px;
+}
+.footer .footer_item p,
+.footer .footer_item a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+}
+.footer .footer_icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer_icon img {
+  width: 22px;
+  height: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer .footer_icon--phone {
+  border-color: #3b82f6;
+}
+.footer {
+  /* COL 2 & 3 */
+}
+.footer .footer_col {
+  flex: 1 1 240px;
+}
+.footer .footer_col h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 28px;
+}
+.footer .footer_col ul {
+  margin-top: 50px;
+}
+.footer .footer_col ul li {
+  margin-bottom: 24px;
+}
+.footer .footer_col ul li a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer .footer_col ul li a:hover {
+  color: #fff;
+}
+.footer .footer_title {
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 14px 0;
+  font-weight: 400;
+}
+.footer .footer_title h1,
+.footer .footer_title h2,
+.footer .footer_title h3 {
+  color: #000;
+}
+@media screen and (max-width: 600px) {
+  .footer .footer {
+    padding: 48px 0;
+  }
+  .footer .footer_wrapper {
+    gap: 2px;
+  }
+  .footer .footer {
+    /* COL 2 & 3 */
+  }
+  .footer .footer .footer_col h3 {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .footer .footer .footer_col ul {
+    margin-top: 18px;
+  }
+  .footer .footer .footer_col ul li {
+    margin-bottom: 14px;
+  }
+  .footer .footer .footer_col ul li a {
+    font-size: 15px;
+  }
+}
+.footer .footer_title {
+  padding: 2px 12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* FOOTER END *//*# sourceMappingURL=style.css.map */
